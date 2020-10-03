@@ -1,0 +1,122 @@
+body{
+  margin:0;
+  padding:0;
+  display:flex;
+}
+nav{
+  width:20%;
+  border-right:1px solid;
+  border-radius: 5px;
+  background-color:rgba(117,172,211, 0.3);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.nav-elements{
+  margin-left: 15px;
+}
+.nav-elements ul{
+  list-style-type: none;
+  margin: 0px;
+  padding:0px;
+  border:0px;
+}
+.nav-elements h3{
+  font-size:40px;
+  margin-bottom:20px;
+}
+.nav-elements li{
+  font-size:20px;
+  margin-bottom:10px;
+}
+.nav-elements li:hover{
+  background-color:aliceblue;
+}
+#project-add{
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: rgb(21,131,242);
+  outline:none;
+  border: none;
+  height: 30px;
+  margin-bottom:20px;
+}
+
+#project-add:hover{
+  background-color: rgba(21,131,242, 0.8)
+}
+.main{
+  background-image: url(back.jpg);
+  background-size:cover;
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.main h2{
+  font-size: 40px;
+  margin-top:5px;
+  width:150px;
+  text-align:center;
+}
+.main h3{
+  font-size:30px;
+  border-bottom:1px solid;
+  margin-left:20px;
+  width:100px;
+  text-align:center
+}
+.main-content{
+  margin-top:20px;
+  background-color: white;
+  width:40%;
+  height:80%;
+  border-radius:20px;
+}
+.butt-todo{
+  border-radius: 20px;
+  background-color: rgb(21,131,242);
+  outline:none;
+  border: none;
+  height: 30px;
+  margin-left: 10px;
+}
+.todo{
+  margin-left:20px;
+  font-size:20px;
+  margin-bottom:15px;
+}
+.todo:hover{
+  border:1px solid rgba(21,131,242, 0.8);
+}
+input{
+  margin-right:10px;
+}
+.project-create{
+  display: none;
+  text-align:center;
+  background-color:white;
+  width:300px;
+  height:100px;
+  border-radius:10px;
+}
+}
+.project-create legend{
+font-size:20px;
+}
+#btn-project-create{
+  border-radius: 20px;
+  background-color: rgb(21,131,242);
+  outline:none;
+  border: none;
+  height: 30px;
+}
+
+.task-create{
+  display:none;
+  text-align:center;
+  background-color:white;
+  width:300px;
+  height:100px;
+  border-radius:10px;
+}

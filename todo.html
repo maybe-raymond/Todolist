@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css"></link>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-elements">
+        <div>
+          <h3>All tasks</h3>
+            <ul id="tasks">
+            </ul>
+          </div>
+          <div>
+            <h3>projects</h3>
+            <ul  id="project">
+            </ul>
+          </div>
+        </div>
+          <button id="project-add">+  Create Project</button>
+    </nav>
+    <div class="main">
+      <div class="main-content">
+        <h2></h2>
+        <div class="main-page">
+          <h3>Tasks</h3>
+          <div class="all-todos">
+          </div>
+        </div>
+        <div class="add-todo">
+          <button class="butt-todo">Add task</button>
+      </div>
+      </div>
+        <div class="project-create">
+          <legend>Add a Project</legend>
+          <label>name<input></input></label>
+        <button id="btn-project-create">create </button>
+      </div>
+      <div class="task-create">
+        <legend>Add a task</legend>
+        <label>name</label>
+        <input id="name" type="text"></input><br>
+        <label for="date">dueDate</label>
+        <input type="date" id="date" name="date">
+        <label for="priorty">priorty</label>
+        <select id="priorty"  name="priorty">
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+      <button id="btn-task-create">create </button>
+    </div>
+      </div>
+    </div>
+  </body>
+  <script src="list.js"></script>
+</html>
